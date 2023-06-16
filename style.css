@@ -1,0 +1,160 @@
+body {
+  font-family: sans-serif;
+  background-color: #0d0f19;
+  justify-content: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+header {
+
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #FAF0E4;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer {
+    font-size: 0.8rem;
+    justify-content: center;
+}
+
+
+.my-greeting{
+  color: #EA906C;
+  text-align: left;
+
+}
+.my-photo {
+    height: 200px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #6a11df;
+    color: #FAF0E4;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+}
+.button:hover{
+    background-color: #EA906C;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #f1f1f1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  background-color: #6a11df;
+}
+
+.navigation-logo {
+  margin-left: 100px;
+}
+
+.navigation-logo img {
+  width: 150px;
+  height: 45px;
+}
+
+.navigation ul {
+  list-style: none;
+  margin: 0 250px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation ul li {
+  margin-left: 10px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #ddd;
+}
+
+.navigation ul li a:hover {
+  background-color: #b074f5;
+}
+
+.main-content {
+  padding: 20px;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.pict1 {
+  float: left;
+  margin-right: 20px;
+  height: 300px;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-wrapper2 {
+  text-align: center;
+  color: #EA906C;
+}
+
+.image-wrapper2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.logo-html,
+.logo-css,
+.logo-js {
+  width: 100px;
+  height: 100px;
+}
+
+.text-wrapper {
+  float: left;
+  color: #fff;
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    border-radius: 3px;
+  }
+
+a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
